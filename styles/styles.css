@@ -1,0 +1,149 @@
+css
+/* Estilos básicos para el blog */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0DE0B3;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+    background-size: 10%; 
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 5px solid black;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #666;
+}
+
+nav a:hover {
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 300%;
+}
+
+.entrada-resumen {
+    padding: 5px 1.5rem 1.5rem 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.entrada-resumen h3 a {
+    text-decoration: none;
+    color: #2c3e50;
+}
+
+.entrada-resumen h3 a:hover {
+    color: #e74c3c;
+}
+
+.entrada-resumen h3 {
+     font-size: 2em;
+     text-align: center;
+     margin-bottom: 0.5rem
+}
+
+.fecha {
+    color: #7f8c8d;
+    font-size: 1em;
+    margin-bottom: 0.5rem;
+}
+
+.entrada-completa {
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.entrada-completa h2 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.entrada-completa h3 {
+    margin: 1.5rem 0 0.5rem 0;
+    color: #34495e;
+}
+
+.button {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.button:hover {
+    background: #2980b9;
+}
+
+.navegacion-entrada {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+}
+/*specifics */
+
+.accordion.accordion-flush{
+  background-color: white;}
+
+.myface {
+    width: 40%;
+    height: auto;
+    float: right;
+    margin-left: 40px;
+}
+
+.portada-imagen {
+    max-width: 750px;
+    max-height: 300px;
+    object-fit: fill; 
+    object-position: center;
+    display: block;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+    color: #7f8c8d;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    
+    .entrada-completa, .entrada-resumen {
+        padding: 1rem;
+    }
+}
