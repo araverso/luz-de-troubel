@@ -110,8 +110,19 @@ h1 {
 }
 /*specifics */
 
+/*FAQ*/
+
 .accordion.accordion-flush{
-  background-color: white;}
+    padding-bottom: 1%;
+}
+
+.accordion-button{
+    background-color: blanchedalmond;
+}
+
+.accordion-body{
+    background-color: white;
+}
 
 .myface {
     width: 40%;
